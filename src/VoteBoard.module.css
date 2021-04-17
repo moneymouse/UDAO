@@ -1,0 +1,43 @@
+.votedBoard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:3vw
+}
+.left{
+    flex:1;
+}
+.center{
+    flex:6;
+}
+.right{
+    position: relative;
+    height: 20vh;
+    flex:5;
+}
+.statusBox{
+    border-radius: 1.5vw;
+    width: 1.5vw;
+    height: 20vh;
+
+}
+.votedButton{
+    border-radius: 4vw;
+    height: 3rem;
+    font-size: 1.1rem;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    border:none;
+    font-weight: 700;
+}
+.p{
+    margin-bottom: unset;
+    margin-top: unset;
+    color:gray;
+}
+.icon{
+    margin-top: .5vh;
+    height:2.3rem;
+}

@@ -1,0 +1,34 @@
+.radiusBoard{
+    height: 18.4vh;
+    width: 88%;
+    margin-left: calc(6% - 15px);
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 3vw;
+    padding-left:15px;
+    padding-right: 15px;
+    border: .5px solid #dbdbdb;
+
+}
+.downBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.image{
+    height: 12vh;
+    width: 90%;
+}
+.h4{
+    position: absolute;
+    bottom: .7rem;
+    margin-top: unset;
+}
+.introduction{
+    font-size: .75rem;
+    color: gray;
+    position:absolute;
+    top: -2rem;
+}

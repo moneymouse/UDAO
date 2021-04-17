@@ -1,0 +1,15 @@
+<svg id="Button_Icon" data-name="Button/Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Shape" d="M2,16a2,2,0,1,1,2-2A2,2,0,0,1,2,16Zm0-6A2,2,0,1,1,4,8,2,2,0,0,1,2,10ZM2,4A2,2,0,1,1,4,2,2,2,0,0,1,2,4Z" transform="translate(0 0)" fill="#1e1f20"/>
+        </clipPath>
+    </defs>
+    <g id="Button_Icon-2" data-name="Button/Icon">
+        <rect id="Background_Color" data-name="Background Color" width="28" height="28" rx="12" fill="none"/>
+        <g id="Icon" transform="translate(5 5)">
+            <g id="组_16" data-name="组 16" transform="translate(7 1)">
+                <path id="Shape-2" data-name="Shape" d="M2,16a2,2,0,1,1,2-2A2,2,0,0,1,2,16Zm0-6A2,2,0,1,1,4,8,2,2,0,0,1,2,10ZM2,4A2,2,0,1,1,4,2,2,2,0,0,1,2,4Z" transform="translate(0 0)" fill="#8f92a1"/>
+            </g>
+        </g>
+    </g>
+</svg>

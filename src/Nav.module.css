@@ -1,0 +1,36 @@
+.nav{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    border-radius: 0 0 calc(12px + 3vw) calc(12px + 3vw);
+    z-index: 2;
+    border: .5px solid #dbdbdb;
+    border-top:none;
+}
+.person{
+    height: 8vw;
+    width: 8vw;
+    background-color: #E56862;
+    border-radius: 1.6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    margin-top: calc(5vh - 4vw);
+    margin-right: 8%;
+}
+.back{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 1.6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: calc(5vh - 4vw);
+    margin-left: 8%;
+    position: absolute;
+    z-index: 5;
+    border: .1px solid lightgray;
+}
