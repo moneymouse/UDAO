@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail snapshot 1`] = `
+Array [
+  <div
+    className="nav"
+  >
+    <div
+      className="back"
+      onClick={[Function]}
+    >
+      <img
+        src="back.svg"
+      />
+    </div>
+    <h2
+      style={
+        Object {
+          "float": "left",
+          "lineHeight": "10vh",
+          "marginBottom": "unset",
+          "marginLeft": "22.5%",
+          "marginTop": 0,
+          "textAlign": "center",
+          "width": "55%",
+        }
+      }
+    >
+      幸存老兵助养行动
+    </h2>
+    <div
+      className="person"
+    >
+      <img
+        src="person.svg"
+      />
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "height": "10vh",
+      }
+    }
+  />,
+  <img
+    src="ninja161787932432540.jpg"
+    style={
+      Object {
+        "borderRadius": "12px",
+        "height": "27.6vh",
+        "marginBottom": "2vw",
+        "marginLeft": "6%",
+        "marginTop": "4vw",
+        "width": "88%",
+      }
+    }
+  />,
+  <div
+    className="dataBoard"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "12px",
+        "height": "unset",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    />
+    <div
+      className="contributionDetail"
+    >
+      <b>
+        现筹款数额：
+        0
+      </b>
+      <br />
+      <b>
+        筹款总目标：
+        1000
+      </b>
+      <p
+        className="friend"
+      >
+        你的好友:
+        Samuel,Tony,Sherry参与了捐赠
+        参与了捐赠
+      </p>
+      <a
+        style={
+          Object {
+            "color": "#00a1ffd9",
+            "fontSize": ".9rem",
+          }
+        }
+      >
+        查看更多
+      </a>
+    </div>
+  </div>,
+  <div
+    className="detailBoard"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": "12px",
+        "height": "unset",
+      }
+    }
+  >
+    <div
+      className="detailTitle"
+    >
+      项目详情
+    </div>
+    美国发起了一场针对中国的地缘政治竞争，但没有预先制定协调一致的战略。在中国承受一个世纪的屈辱时，美国则享受了一个世纪的胜利。中国人在思考上是非常谨慎、实用主义而且非常具有战略性的。鉴于美国人130年来赢得了所有竞争，他们本着不可能失败的原则出发而让自己处于危险境地。我这里引用格雷厄姆·艾利森的话，他说美国希望中国跟它一样。一定要注意你所希望的东西啊！当美国在19世纪90年代成为一个强大国家，面对类似中国在今天的局面时，美国人做的第一件事就是向其他国家宣战，比如从西班牙手中掠取了菲律宾。美国还会拿走由越南、菲律宾、马来西亚和文莱控制的所有岛礁。中国拥有可以这么做的军事实力。但中国没有这么做。
+  </div>,
+  <div
+    className="buttonBox"
+  >
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "#E56862",
+        }
+      }
+    >
+      立即捐款
+    </button>
+    <button
+      className="button"
+      style={
+        Object {
+          "backgroundColor": "#F59B40",
+        }
+      }
+    >
+      进入投票
+    </button>
+  </div>,
+]
+`;

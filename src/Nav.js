@@ -3,6 +3,12 @@ import React from "react";
 import Person from "./img/person.svg";
 import Back from "./img/back.svg"
 
+/**
+ * @property {JSON} props
+ * @property {boolean} props.couldback
+ * @property {function} props.onBack
+ * @property {string} props.children - The title of the Nav
+ **/
 export default class Nav extends React.Component {
 	constructor(props) {
 		super(props);
