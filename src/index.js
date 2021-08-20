@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Login,{Signup} from './Login';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Router>
+          <Switch>
+              <Route path={"/login"} component={Login}/>
+              <Route path={"/signup"} component={Signup}/>
+              <Route component={App}/>
+          </Switch>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

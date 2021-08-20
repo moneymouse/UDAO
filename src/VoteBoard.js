@@ -19,7 +19,7 @@ export default class VoteBoard extends React.Component {
 		super(props);
 	}
 	render() {
-		const {voted,votedMoney,votedTitle,color="#F59B40",startTime,endTime} = this.props;
+		const {voted,votedMoney,votedTitle,color="#F59B40",startTime,endTime,onClick} = this.props;
 		return (
 			<React.Fragment>
 				<DefaultBoard style={{marginBottom: "3vh",width:"calc(88% - 6vw)",marginLeft:"6%",}} className={style.votedBoard}>
@@ -38,7 +38,7 @@ export default class VoteBoard extends React.Component {
 					<div className={style.right}>
 						<img className={style.icon} src={Detail} style={{float:"right"}} />
 						<div>
-							<button type={"button"} style={{backgroundColor:voted?"#6286ED":"gray"}} className={style.votedButton} disabled={!voted}>{voted?"进入投票":"已通过"}</button>
+							<button type={"button"} style={{backgroundColor:voted?"#6286ED":"gray"}} onClick={onClick} className={style.votedButton} disabled={!voted}>{voted?"进入投票":"已投票"}</button>
 						</div>
 					</div>
 				</DefaultBoard>

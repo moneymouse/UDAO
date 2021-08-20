@@ -126,6 +126,7 @@ Array [
   >
     <button
       className="button"
+      onClick={null}
       style={
         Object {
           "backgroundColor": "#E56862",
@@ -136,6 +137,7 @@ Array [
     </button>
     <button
       className="button"
+      onClick={null}
       style={
         Object {
           "backgroundColor": "#F59B40",

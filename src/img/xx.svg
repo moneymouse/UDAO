@@ -1,0 +1,10 @@
+<svg id="Button_Icon" data-name="Button/Icon" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+    <g id="Button_Icon-2" data-name="Button/Icon">
+        <rect id="Background_Color" data-name="Background Color" width="38" height="38" rx="12" fill="#fff" opacity="0.2"/>
+        <g id="Icon_Currency" data-name="Icon/Currency" transform="translate(10 12)">
+            <g id="组_31" data-name="组 31">
+                <path id="Shape-2" data-name="Shape" d="M9,16.515,7.7,15.327C3.06,11.124,0,8.343,0,4.95A4.9,4.9,0,0,1,4.95,0,5.412,5.412,0,0,1,9,1.872,5.412,5.412,0,0,1,13.05,0,4.9,4.9,0,0,1,18,4.95c0,3.393-3.06,6.174-7.695,10.377Z" fill="#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

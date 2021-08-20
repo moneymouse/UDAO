@@ -15,7 +15,7 @@ export default class Nav extends React.Component {
 	}
 
 	render() {
-		const {couldback,children,onBack} = this.props;
+		const {couldback,children,onBack,histories} = this.props;
 		return (
 			<React.Fragment>
 				<div className={style.nav}>
@@ -31,7 +31,7 @@ export default class Nav extends React.Component {
 						float: "left",
 						marginBottom:"unset"
 					}}>{children}</h2>
-					<div className={style.person}>
+					<div className={style.person} onClick={()=>{histories.push('/PCenter')}}>
 						<img src={Person}/>
 					</div>
 				</div>

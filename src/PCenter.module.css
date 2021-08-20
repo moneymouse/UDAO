@@ -1,0 +1,118 @@
+.nav{
+    /*position: fixed;*/
+    top: 0px;
+    background-color: transparent;
+    height: 10vh;
+    width: 100%;
+    border:none;
+    display: flex;
+    margin-bottom: 1.3em;
+    justify-content: space-between;
+}
+.person{
+    color: white;
+    height: 8vw;
+    width: 8vw;
+    background-color: #E56862;
+    border-radius: 1.6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    margin-top: calc(5vh - 4vw);
+    margin-right: 8%;
+}
+.back{
+    color: white;
+    height: calc(8vw - 3px);
+    width: calc(8vw - 3px);
+    border-radius: 1.6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: calc(5vh - 4vw);
+    margin-left: 8%;
+    /*position: absolute;*/
+    /*z-index: 5;*/
+    border: 2px solid white;
+}
+.back:hover{
+    background-color: lightgray;
+}
+
+.body{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headphoto{
+    flex-basis: 17vw;
+}
+.processBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+._process{
+    display: flex;
+    background-color: rgba(255,255,255,.07);
+    border-radius: .5rem;
+    height:.7rem;
+    flex-basis: 58%;
+    margin-right: .5rem;
+    border:none;
+}
+.p{
+    background-color: #F18417;
+    border-radius: .5rem;
+    height: 100%;
+    border: none;
+}
+.line{
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    height: 1px;
+    width: 80%;
+    background-color: rgba(255,255,255,.3);
+}
+.d{
+    width: 80%;
+    display: flex;
+    height: 3rem;
+    margin-bottom: 8vw;
+}
+.q{
+    display: flex;
+    flex-direction: column;
+    flex:14;
+    justify-content: space-between;
+}
+
+/*bottom*/
+.bottom{
+    background-color: white;
+    height: 70vw;
+    position: fixed;
+    bottom:0;
+    width: calc(100vw - 2rem);
+    border-radius: 2rem 2rem 0 0;
+    padding-left: 2rem;
+    overflow-y: auto;
+}
+
+/*grid*/
+.bandGrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-column-gap: 1rem;
+    width:calc(100vw - 4rem);
+    justify-content: center;
+    margin-top: 1rem;
+}
+.pic{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}

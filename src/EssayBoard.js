@@ -24,10 +24,10 @@ export default class EssayBoard extends React.Component {
 	}
 
 	render() {
-		const {organization, date, image, title, introduction} = this.props;
+		const {organization, date, image, title, introduction, onClick} = this.props;
 		return (
 			<React.Fragment>
-				<div className={style.radiusBoard} style={this.state.radiusBoardAnimate}>
+				<div className={style.radiusBoard} style={this.state.radiusBoardAnimate} onClick={onClick}>
 
 					<div className={style.downBox} style={{marginTop: "15px"}}>
 						<div style={{flex: 1.2}}>
@@ -35,7 +35,7 @@ export default class EssayBoard extends React.Component {
 							     className={style.image}/>
 						</div>
 						<div style={{width: "55%", position: "relative", flex: 1}}>
-							<h3 className={style.h4}>{title}</h3>
+							<h3 style={{fontSize:'1.1rem'}} className={style.h4}>{title}</h3>
 							<p className={style.introduction}>{introduction}</p>
 						</div>
 					</div>

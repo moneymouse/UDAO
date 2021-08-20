@@ -1,0 +1,18 @@
+.shareButton{
+    border: none;
+    border-radius: 12px;
+    background: #6286ED;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 33.5%;
+    padding: 0.9rem;
+}
+.shareP{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30vh;
+    font-size: 1.1rem;
+    color: gray;
+}
