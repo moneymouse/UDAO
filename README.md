@@ -6,4 +6,5 @@ has some power to vote what things the fund use for. It makes democratic in publ
 
 # Getting Started with UDAO
 
-You can learn more about this project from [UDAO](http://www.qugongyi.love).
+``You can learn more about this project from [UDAO](http://www.qugongyi.love)``.
+UDAO荣获第七届中国国际“互联网+”大学生创新创业大赛（国赛）铜奖。
